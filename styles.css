@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+.varun{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../PORTFOLIO/OIP\ \(3\).jfif);
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    font-size: 35px;
+     list-style: none;
+     display: inline-block;
+     padding: 10px 25px;
+}
+ nav ul li a{
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: capitalize;
+ }
+ nav ul li a:hover{
+     color: #f9004d;
+    transition: .4s;
+ }
+ .content{
+     position: absolute;
+     top: 50%;
+     left: 8%;
+     transform: translateY(-50%);
+ }
+ h1{
+     color: white;
+     margin: 20px 0px 20px;
+     font-size: 75px;
+ }
+ h3{
+     color: white;
+     font-size: 45px;
+     margin-bottom: 50px;
+ }
+ h4{
+     color: white;
+     letter-spacing: 2px;
+     font-size: 25px;
+ } span{
+     color: #f9004d;
+ }
+ .about{
+     width: 100%;
+     padding: 100px 0px;
+     
+ }
+ .about img{
+     height: auto;
+     width: 430px;
+    
+ }
+ .about-text{
+     width: 550px;
+     
+ }
+ .main{
+     width: 1130px;
+     max-width: 95%;
+     margin: 10 auto;
+     align-items: center;
+     justify-content: space-around; 
+     
+ }
+ .Education{
+     background: #101010;
+     width:100%;
+     padding: 100px 0px;
+ }
+ .title h2{
+     color: white;
+     font-size: 75px;
+     width: 1130px;
+     margin: 30px auto;
+     text-align: center;
+ }
+ .box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 400px;
+ }
+ .card{
+     height: 365px;
+     width: 335px;
+     padding: 20px 35px;
+     background: #191919;
+     border-radius: 20px;
+     margin: 15px;
+     position: relative;
+     overflow: hidden;
+     text-align: center;
+ }
+ .card img{
+     font-size: 50px;
+     display: block;
+     text-align: center;
+     margin: 25px 0px;
+     color: #f9004d;
+ }
+h5{
+    color: red;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+ .pra p{
+     color:#fcfc;
+     font-size: 16px;
+     line-height: 27px;
+     margin-bottom: 25px;
+ }
+ h2{
+    color:red;
+    font-size: 16px;
+    margin-bottom: 15px;
+ }
+ 
+ 
+
+
+
